@@ -66,10 +66,10 @@ rspec spec/
   </builders>
   <publishers>
     <hudson.plugins.s3.S3BucketPublisher>
-      <profileName>ditcndocreds</profileName>
+      <profileName>shanghai-java-s3</profileName>
       <entries>
         <hudson.plugins.s3.Entry>
-          <bucket>ditcndocreds</bucket>
+          <bucket>devops-ness-artifacts</bucket>
           <sourceFile>devopsinthecloud.tar.gz</sourceFile>
         </hudson.plugins.s3.Entry>
       </entries>
